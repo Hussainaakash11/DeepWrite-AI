@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* STRENGTHENED LINTING (Recommended) */
+    "strict": true,                // Enables strict null checks and strict property initialization
+    "noUnusedLocals": true,        // Warns if you define a variable but don't use it
+    "noUnusedParameters": true,    // Warns about unused function arguments
+    "noImplicitAny": true,         // Forces you to define types (Critical for TS value)
+    "noFallthroughCasesInSwitch": true,
+
+    /* Enable process.env support */
+    "types": ["node"],
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
+}
