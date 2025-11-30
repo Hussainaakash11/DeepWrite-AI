@@ -1,6 +1,6 @@
 # **DeepWrite AI Studio ✨**
 
-*AI-powered Content Generation Studio using Gemini 1.5 Flash*
+*AI-powered Content Generation Studio using Gemini 2.5 Flash*
 
 DeepWrite AI Studio is a modern, lightweight, and efficient web application that enables users to generate high-quality content using Google’s **Gemini 2.5 Flash** model.
 Built with **React + TypeScript + Vite**, and styled using **TailwindCSS**, the system offers a clean UI and rapid performance aimed at students, writers, and developers.
@@ -76,7 +76,7 @@ src/
 | Frontend Framework | React + TypeScript                             |
 | Build Tool         | Vite                                           |
 | UI Styling         | Tailwind CSS                                   |
-| AI Model           | Gemini 1.5 Flash                               |
+| AI Model           | Gemini 2.5 Flash                               |
 | SDK                | @google/generative-ai                          |
 | Deployment         | Any static hosting (Vercel, Netlify, Firebase) |
 
